@@ -4,7 +4,6 @@
   "description": "a plugin for vite to start tunnel using localtunnel",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "private": "false",
   "exports": {
     ".": {
       "import": {
