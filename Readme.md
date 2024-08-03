@@ -3,13 +3,13 @@
 To start using the library, install it in your project:
 
 ```bash
-npm install @amindevs/vite-tsconfig-localtunnel
+npm install -D vite-localtunnel-plugin
 ```
 
 Add `localtunnel()` to your vite plugins, start server and that it!
 
 ```ts
-import { localtunnel } from '@amindevs/vite-tsconfig-localtunnel';
+import { localtunnel } from 'vite-localtunnel-plugin';
 
 export default defineConfig({
   plugins: [..., localtunnel()],
