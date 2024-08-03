@@ -1,5 +1,5 @@
 {
-  "name": "@amindevs/vite-plugin-localtunnel",
+  "name": "vite-localtunnel-plugin",
   "version": "0.0.1",
   "description": "a plugin for vite to start tunnel using localtunnel",
   "main": "./dist/index.js",
