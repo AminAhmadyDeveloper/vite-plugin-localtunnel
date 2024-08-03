@@ -1,7 +1,7 @@
 {
-  "name": "react-no-pay",
+  "name": "@amindevs/vite-plugin-localtunnel",
   "version": "1.0.0",
-  "description": "Just a fun package for who dont pay for your work :D",
+  "description": "a plugin for vite to start tunnel using localtunnel",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "exports": {
@@ -29,12 +29,10 @@
     "test": "playwright test"
   },
   "keywords": [
-    "react",
-    "nextjs",
-    "ui",
-    "not-paid",
-    "fun",
-    "pay"
+    "vite",
+    "plugin",
+    "tunnel",
+    "localtunnel"
   ],
   "author": {
     "email": "aminAhmadyDeveloper@gmail.com",
@@ -42,19 +40,28 @@
     "url": "https://aminahmady.vercel.app"
   },
   "license": "MIT",
-  "homepage": "https://github.com/AminAhmadyDeveloper/react-no-pay",
+  "homepage": "https://github.com/AminAhmadyDeveloper/vite-plugin-localtunnel",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AminAhmadyDeveloper/react-no-pay.git"
+    "url": "git+https://github.com/AminAhmadyDeveloper/vite-plugin-localtunnel.git"
   },
   "bugs": {
-    "url": "https://github.com/AminAhmadyDeveloper/react-no-pay/issues"
+    "url": "https://github.com/AminAhmadyDeveloper/vite-plugin-localtunnel/issues"
   },
-  "packageManager": "npm@10.2.0",
+  "packageManager": "npm@10.2.4",
   "devDependencies": {
+    "@types/localtunnel": "^2.0.4",
     "@types/node": "^20.11.0",
     "bunchee": "^4.3.3",
     "prettier": "^3.1.1",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "vite": "^5.3.5"
+  },
+  "peerDependencies": {
+    "vite": "^2.9.0 || ^3.0.0 || ^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "localtunnel": "^2.0.2",
+    "picocolors": "^1.0.1"
   }
 }
