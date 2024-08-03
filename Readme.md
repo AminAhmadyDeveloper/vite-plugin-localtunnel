@@ -3,17 +3,16 @@
 To start using the library, install it in your project:
 
 ```bash
-npm install react-no-pay
+npm install @amindevs/vite-tsconfig-localtunnel
 ```
 
-Add `useNotPaid(startDate, deadline)` to your root layout, it will be fade the body in time you say for you, that simple!
+Add `localtunnel()` to your vite plugins, start server and that it!
 
-```jsx
-import { useNotPaid } from 'react-no-pay';
+```ts
+import { localtunnel } from '@amindevs/vite-tsconfig-localtunnel';
 
-function App() {
-  useNotPaid(new Date(), 10);
+export default defineConfig({
+  plugins: [..., localtunnel()],
+});
 
-  return <div>...</div>;
-}
 ```

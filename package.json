@@ -1,6 +1,6 @@
 {
   "name": "@amindevs/vite-plugin-localtunnel",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "a plugin for vite to start tunnel using localtunnel",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
